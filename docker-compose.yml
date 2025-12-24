@@ -14,7 +14,7 @@ services:
     ports:
       - "7880:7880"
       - "7881:7881"
-    command: --dev --bind "0.0.0.0"
+    command: --dev --bind 0.0.0.0 --node-ip 192.168.54.95 --udp-port 7881
     networks:
       - agent_network
 
