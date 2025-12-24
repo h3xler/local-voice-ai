@@ -48,7 +48,7 @@ services:
         limits:
           memory: 32G
         reservations:
-          memory: 6G
+          memory: 30G
 
   livekit_agent:
     build:
