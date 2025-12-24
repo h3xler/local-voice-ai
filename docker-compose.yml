@@ -46,9 +46,9 @@ services:
     deploy:
       resources:
         limits:
-          memory: 32G
+          memory: 16G
         reservations:
-          memory: 30G
+          memory: 6G
 
   livekit_agent:
     build:
