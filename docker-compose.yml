@@ -14,7 +14,7 @@ services:
     ports:
       - "7880:7880"
       - "7881:7881"
-    command: --dev --bind 0.0.0.0 --node-ip 212.154.20.150
+    command: --dev --bind 0.0.0.0 --node-ip livekit-voiceai.marslogistics.com --udp-port 7881
     networks:
       - agent_network
 
