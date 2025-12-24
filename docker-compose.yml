@@ -46,7 +46,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 8G
+          memory: 32G
         reservations:
           memory: 6G
 
@@ -75,7 +75,7 @@ services:
     build:
       context: ./frontend
     ports:
-      - "3000:3000"
+      - "3005:3000"
     environment:
       - NEXT_PUBLIC_LIVEKIT_URL=ws://localhost:7880
       - LIVEKIT_URL=ws://livekit:7880
